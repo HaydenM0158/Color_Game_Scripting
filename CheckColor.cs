@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
+//TEST TEST, UPDATING GITHUB FILES
+
+//SOMETHING SOMETHING BRAND NEW FEATURE POP UP HERE!!
+
 public class CheckColor : MonoBehaviour
 {
     private Color[] otherGameObjectColors = new Color[3] { Color.green, Color.yellow, Color.red };
