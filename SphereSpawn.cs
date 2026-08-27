@@ -15,13 +15,4 @@ public class SphereSpawn : MonoBehaviour
     {
         GameObject.Instantiate(sphere);
     }
-
-    void Update()
-    {
-        //TODO: MAKe it to where:
-        // If gameobject that is the SPHERE 
-        // SELF DELETES,
-        // Run spawnGo Function. 
-        // HOW DO I????
-    }
 }
