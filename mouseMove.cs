@@ -26,9 +26,7 @@ public class mouseMove : MonoBehaviour
             {
                 Vector2 mouseCursor = Input.mousePositionDelta;
                 mouseCursor = mouseCursor.normalized * mouseCursor.magnitude;
-
-                //WORKING PROTOTYPE, IT KINDA WORKS, FOR THE LOVE OF GOD DON'T DELETE THIS LINE OF CODE!!!!
-                //gameObject.GetComponent<Rigidbody2D>().AddForce(mouseCursor * mouseMoveSpeed * Time.deltaTime);
+                
                 gameObject.GetComponent<Rigidbody2D>().AddForceAtPosition(mouseCursor, mouseCursor * Time.deltaTime);
 
                 gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
